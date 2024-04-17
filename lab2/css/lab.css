@@ -4,6 +4,31 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 2px #6a994e;
+    color: #bc4749;
+  background-color: #f2e8cf;
   }
+
+h1 {
+  color: #386641
+  font-size: 200%
+}
+
+p{
+  font-family: "comic sans";
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+#content {
+  background-color: #a7c959;
+  min-height: 300px;
+  padding: 18px;
+  margin: 10px;
+  border: solid 2px #6a994e;
+  font-size 20px;
+}
+
+body {
+  background-color: #386641;
+}
