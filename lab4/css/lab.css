@@ -14,3 +14,24 @@
   border: solid 1px #386641;
   background-color: #4C9A2A;
 }
+
+.wood-section {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #386641;
+  background-color: #a7c959;
+}
+
+.bird-section {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #386641;
+  background-color: #a7c959;
+}
+
+.psuedocode-section {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #386641;
+  background-color: #a7c959;
+}
