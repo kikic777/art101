@@ -5,13 +5,10 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #4C9A2A;
-    background-color: #C7EA46CC;
+    background-color: #c7ea46cc;
+
   }
 
   body {
     background-color: #22577a;
-  }
-
-  .center {
-    width = 400px
   }
