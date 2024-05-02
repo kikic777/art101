@@ -4,11 +4,11 @@
 
 // Variables
 const car = {};
-let car.make = "Volkswagen";
-let car.model = "Beetle";
-let car.color = "Dark Green";
-let car.year = 1969;
-let car.age = 2024 - car.year;
+car.make = "Volkswagen";
+car.model = "Beetle";
+car.color = "Dark Green";
+car.year = 1969;
+car.age = 2024 - car.year;
 
 // Output
 document.writeln("Make: " + car.make + "<br>")
