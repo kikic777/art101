@@ -11,11 +11,11 @@ car.year = 1969;
 car.age = 2024 - car.year;
 
 // Output
-document.writeln("Make: " + car.make + "<br>")
-document.writeln("Model: " + car.model + "<br>")
-document.writeln("Color: " + car.color + "<br>")
-document.writeln("Year: " + car.year + "<br>")
-document.writeln("Age: " + car.age + "years<br>")
+document.writeln("Make: " + car.make + "<br>");
+document.writeln("Model: " + car.model + "<br>");
+document.writeln("Color: " + car.color + "<br>");
+document.writeln("Year: " + car.year + "<br>");
+document.writeln("Age: " + car.age + "years<br>");
 
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
