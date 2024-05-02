@@ -12,3 +12,8 @@
   body {
     background-color: #22577a;
   }
+
+  .photo-of-car {
+  margin: 10px;
+  width: 400px;
+}
