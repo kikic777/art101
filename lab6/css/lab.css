@@ -6,7 +6,6 @@
   margin-bottom: 10px;
   border: solid 1px #386641;
   background-color: #89be44;
-  display: flex;
 }
 
 
@@ -21,10 +20,12 @@ body {
   background-color: #22577a;
 }
 
-
+.minor-section-two {
+  display: flex;
+}
 .photo-of-car {
   margin: 10px;
-  margin-right: auto;
+  margin-left: auto;
   max-width: 400px;
 }
 
