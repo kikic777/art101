@@ -8,7 +8,6 @@
   background-color: #89be44;
 }
 
-
 #content {
   margin: 10px;
   padding: 10px;
@@ -20,12 +19,19 @@ body {
   background-color: #22577a;
 }
 
-.minor-section {
+/* .minor-section-two {
   display: flex;
-}
+} 
+
+.minor-section-two (
+  padding: 10px;
+  margin-bottom: 10px;
+
+*/
+
 .photo-of-car {
   margin: 10px;
-  margin-left: auto;
+  /* margin-left: auto; */
   max-width: 400px;
 }
 
