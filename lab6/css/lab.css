@@ -22,9 +22,11 @@ body {
 
 .container {
   display: flex;
+  width: 100%
 }
 
 .photo-of-car {
+  margin: 10px;
   margin-right: auto;
   max-width: 400px;
 }
