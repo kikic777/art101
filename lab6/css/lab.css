@@ -20,3 +20,9 @@ body {
   background-color: #22577a;
 }
 
+.photo-of-car {
+  margin: 10px;
+  max-width: 400px;
+  max-width: 100%;
+  margin-right: auto;
+}
