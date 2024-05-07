@@ -6,6 +6,7 @@
   margin-bottom: 10px;
   border: solid 1px #386641;
   background-color: #89be44;
+  display: flex;
 }
 
 
@@ -20,10 +21,6 @@ body {
   background-color: #22577a;
 }
 
-.container {
-  display: flex;
-  width: 100%
-}
 
 .photo-of-car {
   margin: 10px;
