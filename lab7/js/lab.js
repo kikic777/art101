@@ -22,13 +22,13 @@ let nameSorted = nameArraySort.join('');
 // Note that i could ahve done the abive lines as a single line:
 //  username.toLower().split("").sort().join("")
 // return nameSorted;
-return "Oh hey, I've fixed your name: " +  sortUserName();
+return sortUserName();
 }
 
-document.writeln(sortUserName(), "</br>");
+document.writeln("Oh hey, I've fixed your name: " +  sortUserName(), "</br>");
 
 //Output
-document.writeln("Oh hey, I've fixed your name: ", sortUserName(), "</br>");
+//document.writeln("Oh hey, I've fixed your name: ", sortUserName(), "</br>");
 // Constants
 
 // Functions
