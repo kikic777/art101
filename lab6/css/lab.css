@@ -24,8 +24,13 @@ body {
   display: flex;
 }
 
-.photo-of-car {
+/* .photo-of-car {
   margin: 10px;
   max-width: 400px;
   margin-left: auto;
+} */
+
+.photo-of-car {
+  margin-right: auto;
+  max-width: 400px
 }
