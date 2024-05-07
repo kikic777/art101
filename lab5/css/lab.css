@@ -5,8 +5,15 @@
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #386641;
-  background-color: #4c9a2a;
+  background-color: #89be44;
+  
+}
 
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #386641;
+  background-color: #4c9a2a;
 }
 
   body {
