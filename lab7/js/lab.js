@@ -7,8 +7,8 @@ let userName = window.prompt ("Hi! Please tell me your name so I can fix it.");
 console.log("userName =", userName);
 
 //split string into array
-//let nameArray = userName.split('');
-//console.log("nameArray = ", nameArray);
+let nameArray = userName.split('');
+console.log("nameArray = ", nameArray);
 
 //sort the array
 //let nameArraySort = nameArray.sort();
