@@ -22,24 +22,27 @@ let nameSorted = nameArraySort.join('');
 // Note that i could ahve done the abive lines as a single line:
 //  username.toLower().split("").sort().join("")
 // return nameSorted;
+return "Oh hey, I've fixed your name: " +  sortUserName();
 }
 
+document.writeln(sortUserName(), "</br>");
+
 //Output
-document.writeln("Oh hey, I've fixed your name: " + sortUserName() + "</br>");
+document.writeln("Oh hey, I've fixed your name: ", sortUserName(), "</br>");
 // Constants
 
 // Functions
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
+//function myFunction(param1, param2) {
   // some code here
   // return results;
-}
+//}
 
-function main() {
-  console.log("Main function started.");
+//function main() {
+  //console.log("Main function started.");
   // the code that makes everything happen
-}
+//}
 
 // let's get this party started
-main();
+//main();
