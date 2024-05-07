@@ -2,18 +2,19 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #4C9A2A;
-    background-color: #c7ea46cc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #386641;
+  background-color: #4c9a2a;
 
-  }
+}
 
   body {
-    background-color: #22577a;
-  }
+  background-color: #22577a;
+}
 
-  .photo-of-car {
+.photo-of-car {
   margin: 10px;
   max-width: 400px;
+  float: left;
 }
