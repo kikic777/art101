@@ -20,12 +20,3 @@ body {
   background-color: #22577a;
 }
 
-.container {
-  display: flex;
-}
-
-.photo-of-car {
-  margin: 10px;
-  max-width: 400px;
-  margin-left: auto;
-}
