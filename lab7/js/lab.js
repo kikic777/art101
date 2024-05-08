@@ -21,8 +21,8 @@ let nameSorted = nameArraySort.join('');
 
 // Note that i could ahve done the abive lines as a single line:
 //  username.toLower().split("").sort().join("")
-// return nameSorted;
-return sortUserName();
+return nameSorted;
+// return sortUserName();
 }
 
 document.writeln("Oh hey, I've fixed your name: " +  sortUserName(), "</br>");
