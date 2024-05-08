@@ -6,29 +6,24 @@
 function sortUserName() {
 let userName = window.prompt ("Hi! Please tell me your name so I can fix it.");
 //console.log("userName =", userName);
-
 //split string into array
 let nameArray = userName.split('');
 //console.log("nameArray = ", nameArray);
-
 //sort the array
 let nameArraySort = nameArray.sort();
 //console.log("nameArraySort =", nameArraySort);
-
 //join array back into string
 let nameSorted = nameArraySort.join('');
 //console.log("nameSorted =", nameSorted);
-
 // Note that i could ahve done the abive lines as a single line:
 //  username.toLower().split("").sort().join("")
 return nameSorted;
-// return sortUserName();
 }
 
+//Output
 document.writeln("Oh hey, I've fixed your name: " +  sortUserName(), "</br>");
 
-//Output
-//document.writeln("Oh hey, I've fixed your name: ", sortUserName(), "</br>");
+
 // Constants
 
 // Functions
