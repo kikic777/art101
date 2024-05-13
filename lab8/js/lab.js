@@ -16,10 +16,10 @@ console.log("My Array: " + array);
 
 let resultNum  = array.map(isEven)
 // should return (8) [true, false, false, true, false, true, true, true]
-comsole.log("Eveness of Array: " + resultNum);
+console.log("Eveness of Array: " + resultNum);
 
-let answerNum  = array.map(function(x){
+let resultMultiply  = array.map(function(x){
     return x * 0.5;
 })
 // should return (8) [11, 1.5, 7.5, 47, 388.5, 261, 43, 24]
-console.log("Half of Array:" + answerNum);
+console.log("Half of Array:" + resultMultiply);
