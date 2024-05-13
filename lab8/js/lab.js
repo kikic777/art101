@@ -1,6 +1,6 @@
-// index.js - Working with a partner, experiment with anonymous functions and callbacks!
-// Author: Cynthia Ramirez
-// Date: 5/13/2024
+//index.js - Working with a partner, experiment with anonymous functions and callbacks!
+//Author: Cynthia Ramirez
+//Date: 5/13/2024
 
 function isEven(x){
     return (x % 2 == 0);
