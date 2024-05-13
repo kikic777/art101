@@ -10,13 +10,13 @@ function isEven(x){
 console.log("Is 1 even? ", isEven(1));
 console.log("Is 2 even? ", isEven(2));
 
-array = [22, 3, 15, 94, 777, 522, 86, 48]
+let array = [22, 3, 15, 94, 777, 522, 86, 48]
 // should return (8) [22, 3, 15, 94, 777, 522, 86, 48]
 console.log("My Array: " + array);
 
-let resultNumb  = array.map(isEven)
+let resultNum  = array.map(isEven)
 // should return (8) [true, false, false, true, false, true, true, true]
-console.log("Eveness of Array: " + resultNumb);
+console.log("Eveness of Array: " + resultNum);
 
 let resultMultiply  = array.map(function(x){
     return x * 0.5;
@@ -28,4 +28,4 @@ console.log("Half of Array:" + resultMultiply);
 let mapResults = "Your map results here";
 
 //Use jQuery to select the elemnts by its ID and set the HTML content
-$("output").html(mapResults);
+$("#output").html(mapResults);
