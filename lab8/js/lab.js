@@ -14,9 +14,9 @@ array = [22, 3, 15, 94, 777, 522, 86, 48]
 // should return (8) [22, 3, 15, 94, 777, 522, 86, 48]
 console.log("My Array: " + array);
 
-let resultNum  = array.map(isEven)
+let resultNumb  = array.map(isEven)
 // should return (8) [true, false, false, true, false, true, true, true]
-console.log("Eveness of Array: " + resultNum);
+console.log("Eveness of Array: " + resultNumb);
 
 let resultMultiply  = array.map(function(x){
     return x * 0.5;
