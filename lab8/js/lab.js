@@ -10,7 +10,7 @@ function isEven(x){
 console.log("Is 1 even? ", isEven(1));
 console.log("Is 2 even? ", isEven(2));
 
-let array = [22, 3, 15, 94, 777, 522, 86, 48]
+var array = [22, 3, 15, 94, 777, 522, 86, 48]
 // should return (8) [22, 3, 15, 94, 777, 522, 86, 48]
 console.log("My Array: " + array);
 
