@@ -23,3 +23,9 @@ let resultMultiply  = array.map(function(x){
 })
 // should return (8) [11, 1.5, 7.5, 47, 388.5, 261, 43, 24]
 console.log("Half of Array:" + resultMultiply);
+
+// Your map results data
+let mapResults = "Your map results here";
+
+//Use jQuery to select the elemnts by its ID and set the HTML content
+$("output").html(mapResults);
