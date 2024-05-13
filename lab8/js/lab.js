@@ -1,4 +1,4 @@
-// index.js - Working with a partner, write functions that take user input!
+// index.js - Working with a partner, experiment with anonymous functions and callbacks!
 // Author: Cynthia Ramirez
 // Date: 5/13/2024
 
