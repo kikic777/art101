@@ -7,6 +7,7 @@ function getNameAndDisplay() {
     $('#title').html('Hello, ' + name);
 }
 
+
 // Attach a click handler to the button within the JS file
 $("#my-button").click(getNameAndDisplay)
 
