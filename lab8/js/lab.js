@@ -25,10 +25,10 @@ let resultMultiply  = array.map(function(x){
 console.log("Half of Array:" + resultMultiply);
 
 // Your map results data
-let mapResults = "Your map results here";
+//let mapResults = "Your map results here";
+
+let mapResults = `isEven: ${resultNumb.join(', ')} <br> half of Array: ${resultMultiply.join(', ')}`;
+
 
 //Use jQuery to select the elemnts by its ID and set the HTML content
 $("#output").html(mapResults);
-
-
-const mapResults = `isEven: ${resultNumb.join(', ')} <br> half of Array: ${resultMultiply.join(', ')}`;
