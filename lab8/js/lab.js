@@ -29,3 +29,6 @@ let mapResults = "Your map results here";
 
 //Use jQuery to select the elemnts by its ID and set the HTML content
 $("#output").html(mapResults);
+
+
+const mapResults = `isEven: ${resultNumb.join(', ')} <br> half of Array: ${resultMultiply.join(', ')}`;
