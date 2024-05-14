@@ -26,9 +26,11 @@ console.log("Half of Array:" + resultMultiply);
 
 // Your map results data
 //let mapResults = "Your map results here";
-
-let mapResults = `isEven: ${resultNumb.join(', ')} <br> half of Array: ${resultMultiply.join(', ')}`;
-
+let mapResults = `
+    <p>Original Array: ${array.join(", ")}</p>
+    <p>Evenness of Array: ${resultNum.join(", ")}</p>
+    <p>Half of Array: ${resultMultiply.join(", ")}</p>
+`;
 
 //Use jQuery to select the elemnts by its ID and set the HTML content
 $("#output").html(mapResults);
