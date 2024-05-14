@@ -8,4 +8,10 @@ function getNameAndDisplay() {
 }
 
 // Attach a click handler to the button within the JS file
-// $("#my-button").click(getNameAndDisplay)
+$("#my-button").click(getNameAndDisplay)
+
+// $("#my-button").click(function(){
+//     console.log("Click")
+// });
+
+
