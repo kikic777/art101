@@ -25,17 +25,18 @@ h1 {
   padding: 10px;
   border: solid 1px #4C9A2A;
   background-color: #89BE44;
+  color: #000e;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
+.bio-section {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #4C9A2A;
   background-color: #C7EA46CC;
 }
 
-.links-section {
+.labs-section {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #4c9a2a;
@@ -44,11 +45,12 @@ h1 {
 
 #links {
   font-size: 100%;
-  text-decoration: none; /* remove underline on hover */
   line-height: 1.5;
+  text-decoration: none; /* remove underline on hover */
+  list-style-type: none; /* remove bullet points */
 }
 
-/* Color change on hover */
+/* Color change on hover
 #links:hover {
   color: #22577a;
-}
+}  */
