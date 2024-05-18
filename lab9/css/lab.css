@@ -22,7 +22,7 @@
 
   .special {
     background-color: #c7ea46cc;
-    border: dotted 5px #4c9a2a;
+    border: double 5px #4c9a2a;
     color: #386641;
     font-weight: bold;
 }
