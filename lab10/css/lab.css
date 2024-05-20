@@ -29,20 +29,29 @@
     border-radius: 15px;
     font-family: sans-serif;
     font-size: 0.8em;
-      /* This applies the background and color of left text */
-    background-color: darkgray;
+  
+   
+    /* This applies the background and color of left text */
+    background-color: #4c9a2a;
     color: white
-    }
-    
-    /* 
-    .left {
-      color: white;
-      float: left;
-    }
-     */
-    
-    .right {
-      color: white;
-      background-color: blue;
-      float: right;
-    }
+  }
+  
+  .left {
+    color: white;
+    float: left;
+  }
+  
+  .right {
+    color: white;
+    background-color: #22577a;
+    float: right;
+  }
+  
+  
+  .chat-window {
+    background-color: #C7EA46CC;
+    border: 1px solid #ccc;
+    height: 500px; /* Set a fixed height */
+    width: 300px;  /* Set a fixed width  */
+    overflow-y: scroll; /* Add vertical scrollbar if needed */
+  }

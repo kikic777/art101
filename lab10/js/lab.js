@@ -45,3 +45,9 @@ function generateRandomText() {
      // Append a new div to our output div, with the appropriate class added
      $("#output").append('<div class="text ' + classToAdd + '"><p>' + newText + '</p></div>');
   });
+
+
+
+    // Append a new div to our output div, with the appropriate classes added
+    $("#output").append('<div><p>' + newText + '</p></div>').children().last().addClass('text').addClass(classToAdd);
+    $('#output').append('<br>');
