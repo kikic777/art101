@@ -46,12 +46,19 @@
     background-color: #22577a;
     float: right;
   }
-  
-  
-  .chat-window {
-    background-color: #C7EA46CC;
-    border: 1px solid #ccc;
-    height: 500px; /* Set a fixed height */
-    width: 400px;  /* Set a fixed width  */
-    overflow-y: scroll; /* Add vertical scrollbar if needed */
-  }
+
+/* .container {
+  display: flex;
+  justify-content: center; horizontally centers child elements
+  align-items: center; vertically centers child elements
+  height: 100vh;
+} */
+
+.chat-window {
+  background-color: #C7EA46CC;
+  border: 1px solid #ccc;
+  height: 600px; /* Set a fixed height */
+  width: 500px;  /* Set a fixed width  */
+  overflow-y: scroll; /* Add vertical scrollbar if needed */
+}
+

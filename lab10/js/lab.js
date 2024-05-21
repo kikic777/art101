@@ -14,6 +14,7 @@ function generateRandomText() {
     return text.slice(randStart, randStart + randLen);
   }
   
+
 //   // click listener for button
 //   $("#make-convo").click(function(){ 
 //      // console.log("the button is clicked");
@@ -26,27 +27,54 @@ function generateRandomText() {
 //       $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 //     });
   
-  // Click listener for button
-  $("#make-convo").click(function(){ 
-      // console.log("the button is clicked");
+
+// Click listener for button
+$("#make-convo").click(function(){
+    // Get new fake dialogue
+    const newText = generateRandomText();
     
-      // Get new fake dialogue
-      const newText = generateRandomText();
-      // console.log("newText: " + newText);
-  
-      // Determine the class we should add based on whether this is an even or odd text message
-      let classToAdd = '';
-      if ($("#output .text").length % 2 === 0) {
-          classToAdd = 'left';
-      } else {
-          classToAdd = 'right';
-      }
-  
-     // Append a new div to our output div, with the appropriate class added
-     $("#output").append('<div class="text ' + classToAdd + '"><p>' + newText + '</p></div>');
+    
+// Determine the class we should add based on whether this is an even or odd text message
+let classToAdd = '';
+    if ($("#output .text").length % 2 === 0) {
+        classToAdd = 'left';
+    } else {
+        classToAdd = 'right';
+}
+    
+    // Append a new div to our output div, with the appropriate classes added
+$("#output").append('<div><p>' + newText + '</p></div>').children().last().addClass('text').addClass(classToAdd);
+$('#output').append('<br>');
+});
+
+
+$("#send").click(function(){ 
+    // Get the user's message
+    const userMessage = $("#user-message").val();
+         
+    // Add it to the output div with the appropriate class so it will be styled correctly
+    let classToAdd = '';
+    if ($("#output .text").length % 2 === 0) {
+         classToAdd = 'left';
+    } else {
+         classToAdd = 'right';
+    }
+         
+$('#output').append('<div><p>' + userMessage + '</p></div>').children().last().addClass('text').addClass(classToAdd);
+$('#output').append('<br>');
+        
+$("#user-message").val('');
  });
 
 
-    // Append a new div to our output div, with the appropriate classes added
-    $("#output").append('<div><p>' + newText + '</p></div>').children().last().addClass('text').addClass(classToAdd);
-    $('#output').append('<br>');
+$(document).ready(function() {
+    // Add a keyup handler to the input
+    $("#user-message").keyup(function() {
+        // Get the current length of the input value
+        const charCount = $(this).val().length;
+            
+        // Update the character count element with the new count
+        $("#char-count").text(charCount);
+    });
+});
+

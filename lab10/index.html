@@ -27,13 +27,21 @@
 
 			<div class="minor-section" id="problems" >
 					<h2>Problems</h2>
-					<p>A problem I had was adding and checking the lines for the fucntion together. I also struggled on Task X. I couldn't get the text on the left appear in color. I had to change the text id in general instead of changing it with the new left id in CSS. I also had trouble getting the text sections to not overlap like text bubbles. I did this by creating a chat box window to limit the amount of space the bubbles would take up and changing the min amount of text that can be generated.</p>
+					<p>A problem I had was adding and checking the lines for the fucntion together. I also struggled on Task X. I couldn't get the text on the left appear in color. I had to change the text id in general instead of changing it with the new left id in CSS. I also had trouble getting the text sections to not overlap like text bubbles. I did this by creating a chat box window to limit the amount of space the bubbles would take up and changing the min amount of text that can be generated. I was able to include the input box, but couldn't find a way to alternate the buttons so that text could be generated as a response. Shout out to ChatGPT!</p>
 			</div>
 
 			<div class="minor-section" id="results">
 					<h2>Results</h2>
-					<div id="output" class="chat-window"></div>
-					<button id="make-convo">Say Something</button>
+					<p> Use the chatbox below to generate response bubbles or to write responses! Be mindful of the character minimum for a smoother experience! :D</p>
+
+					<div class="container">
+						<div id="output" class="chat-window"></div>
+						<button id="make-convo">Generate Text</button>
+						
+						<input type="text" id="user-message" class="inputfield" placeholder="50 Character Minimum Rec">
+						<span id="char-count"></span>
+						<button id="send">Send</button>
+					</div>
 			</div>
 		</section>
 		<nav id="links">
