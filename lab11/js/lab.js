@@ -9,17 +9,30 @@ function sortString(inputString) {
     return inputString.split('').sort().join('');
 }
 
+//Sorts the characters of a string into an anagram.
+function randomizeString(inputString) {
+    return inputString.split('').sort(function() {
+      return 0.5 - Math.random();
+    }).join('');
+}
+
 // click listener for button
 $("#submit").click(function(){
     console.log("Button clicked!");
     
     // get value of input field
     const userName = $("#user-name").val();
-    console.log("User Name: " + userName);
+    console.log("User name: " + userName);
     
     // now let's sort it and append it to the output div
     const userNameSorted = sortString(userName);
     console.log("Sorted User Name: " + userNameSorted);
 
-   $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+    $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+  
+    // now let's randomize it and append it to the output div
+    const userNameRandomized = randomizeString(userName);
+    console.log("Randomized User Name: " + userNameRandomized);
+
+    $("#output").html('<div class="text"><p>' + "Sorted Name: " + userNameSorted + "<br>" + "Anagram: " + userNameRandomized + '</p></div>');
 });
