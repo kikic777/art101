@@ -50,6 +50,18 @@ h1 {
   list-style-type: none; /* remove bullet points */
 }
 
+.labs-section ul {
+  column-count: 2;
+}
+
+.projects-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #4c9a2a;
+  background-color: #a7d43e;
+}
+
+
 /* Color change on hover
 #links:hover {
   color: #22577a;
