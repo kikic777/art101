@@ -15,11 +15,11 @@ $("#submit").click(function(){
     
     // get value of input field
     const userName = $("#user-name").val();
-    console.log("Username: " + userName);
+    console.log("User Name: " + userName);
     
     // now let's sort it and append it to the output div
     const userNameSorted = sortString(userName);
-    console.log("Sorted Username: " + userNameSorted);
+    console.log("Sorted User Name: " + userNameSorted);
 
    $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
