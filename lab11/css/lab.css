@@ -20,3 +20,73 @@
     background-color: #22577a;
   }
  
+   
+.special-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #386641;
+  background-color: #89be44;
+}
+
+.special {
+  background-color: #c7ea46cc;
+  border: double 5px #4c9a2a;
+  color: #386641;
+  font-weight: bold;
+}
+
+#buttonChallenge {
+  margin: 0px;
+  margin-bottom: 0 px;
+  float: left;
+}
+
+#centeredButton  {
+  margin: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#buttonGlitch {
+  margin: -17px;
+  margin-bottom: -1px;
+  float: right;
+}
+
+#glitch {
+  margin: -10px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+/* Couldn't figure this out :(
+.makeSpecial {
+  animation: none;
+  clip-path: polygon(-4.4px -3.9px, calc(100% + .5px) -2.9px, calc(100% + .5px) calc(100%), -.4px calc(100.2%));
+}
+
+@keyframes glitchit {
+0% {
+  clip-path: polygon(0 14%, 100% 12%, 100% 61%, -1% 73%);
+  transform: translate(3px, -2px);
+}
+
+50% {
+  clip-path: polygon(-4.4px -3.9px, calc(100% + .5px) -2.9px, calc(100% + .5px) calc(100%) , -.4px calc(100.2%);
+  transform: translate(-1.6%, -.8%);
+} */
+
+.glitched {
+  @keyframes glitchit {
+0% {
+  clip-path: polygon(0 14%, 100% 12%, 100% 61%, -1% 73%);
+  transform: translate(3px, -2px);
+}
+
+50% {
+  clip-path: polygon(-4.4px -3.9px, calc(100% + .5px) -2.9px, calc(100% + .5px) calc(100%) , -.4px calc(100.2%));
+  transform: translate(-1.6%, -.8%);
+}
+animation: glitchit .5s infinite alternate-reverse;
+  } 
+};
