@@ -47,6 +47,13 @@ h1 {
   background-color: #a7d43e;
 }
 
+.projects-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #4c9a2a;
+  background-color: #a7d43e;
+}
+
 #links {
   font-size: 100%;
   line-height: 1.5;
@@ -55,24 +62,24 @@ h1 {
 }
 
 a {
-  color: #000e;
+  color: #000;
   text-decoration: none; /* Remove underlines */
 }
 
 a:hover {
-  color: #22577a;
+  color: #3383b7;
+  text-decoration: underline;
 }
 
+/* The visited pseudo-class should come after a:hover */
 a:visited {
-  color: #000e;
+  color: #000;
 }
 
-.projects-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #4c9a2a;
-  background-color: #a7d43e;
+li:hover {
+  color:#3383b7
 }
+
 
 
 /* Color change on hover
