@@ -54,6 +54,19 @@ h1 {
   list-style-type: none; /* remove bullet points */
 }
 
+a {
+  color: #000e;
+  text-decoration: underline; /* Remove underlines */
+}
+
+a:hover {
+  color: #22577a;
+}
+
+a:visited {
+  color: #000e;
+}
+
 .projects-section {
   padding: 10px;
   margin-bottom: 10px;
