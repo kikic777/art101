@@ -61,19 +61,22 @@ h1 {
   list-style-type: none; /* remove bullet points */
 }
 
-a {
-  color: #000;
+a:link {
+  color: #000; /* unvisited link */
   text-decoration: none; /* Remove underlines */
 }
 
+a:visited {
+  color: #000; /* visited link */
+}
+
 a:hover {
-  color: #3383b7;
+  color: #3383b7; /* mouse over link */
   text-decoration: underline;
 }
 
-/* The visited pseudo-class should come after a:hover */
-a:visited {
-  color: #000;
+a:active {
+  color: #4c9a2a; /* selected link */
 }
 
 li:hover {
