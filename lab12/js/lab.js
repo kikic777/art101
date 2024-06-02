@@ -1,3 +1,8 @@
+//index.js - Working with your partner, create a function that depends on conditionals.
+//Requirements: jQuery must be loaded for this script to work.
+//Author: Cynthia Ramirez
+//Date: 5/30/2024
+
 housesArray = [
     {
         title: "Abomination Magic",
