@@ -9,14 +9,34 @@
     background-color: #89be44;
   }
   
-  #content {
+#content {
     margin: 10px;
     padding: 10px;
     border: solid 1px #386641;
     background-color: #4c9a2a;
   }
   
-  body {
+body {
     background-color: #22577a;
   }
- 
+
+a:link {
+    color: #000; /* unvisited link */
+    text-decoration: none; /* Remove underlines */
+  }
+  
+a:visited {
+    color: #000; /* visited link */
+  }
+  
+a:hover {
+    color: #22577a; /* mouse over link */
+    text-decoration: underline;
+  }
+  
+a:active {
+    color: #4c9a2a; /* selected link */
+  }
+  
+   
+   
