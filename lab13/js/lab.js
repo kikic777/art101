@@ -16,6 +16,9 @@ for (let i = 1; i <= 200; i++) {
     if (i % 7 == 0) {
       str += "Boom";
     }
+    if (i % 9 == 0) {
+        str += "Bang";
+    }    
   
     if (str == "") {
       console.log(i);
